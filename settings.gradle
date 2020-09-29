@@ -1,0 +1,4 @@
+rootProject.name = 'inventory-system'
+
+include(":database")
+project(":database").projectDir = file("./../database2")
